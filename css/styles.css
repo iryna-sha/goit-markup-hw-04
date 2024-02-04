@@ -43,10 +43,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+   
 
 .navigation {
     display: flex;
@@ -76,6 +73,10 @@ img {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
+    }
 }
 
 .logo {
@@ -292,7 +293,7 @@ img {
 
 .name-title {
     padding: 32px 0;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16);
+   
 }
 
 .team-link {
@@ -337,6 +338,7 @@ height: 40px;
     background-color: #fff;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16);
 }
 
 /*!=========FORTH SECTION========!*/
@@ -395,7 +397,7 @@ box-sizing: border-box;
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-portfolio-img-list-item:hover { 
+.portfolio-img-list-item:hover { 
   box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -432,11 +434,13 @@ transform: translateY(0);
     background-color: #2e2f42;
     padding: 100px 0;
 }
-
-.footer-logo-text {
-margin-right: 120px;
+footer-logo-container {
 display: flex;
 align-items: baseline;
+
+}
+.footer-logo-text {
+margin-right: 120px;
 }
 
 .footer-txt {
@@ -477,7 +481,7 @@ height: 40px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #ffffff;
     display: flex;
     margin-bottom: 16px;
