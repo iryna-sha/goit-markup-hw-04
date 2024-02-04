@@ -233,7 +233,7 @@ img {
     background: #f4f4fd;
     display: flex;
         align-items: center;
-        align-items: center;
+       justify-content: center;
 }
 
 .head-features {
@@ -275,6 +275,7 @@ img {
     display: flex;
     gap: 24px;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16);
 }
 
 .team-item-img {
@@ -338,7 +339,7 @@ height: 40px;
     background-color: #fff;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16);
+    
 }
 
 /*!=========FORTH SECTION========!*/
@@ -434,13 +435,13 @@ transform: translateY(0);
     background-color: #2e2f42;
     padding: 100px 0;
 }
-footer-logo-container {
+.footer-logo-container {
 display: flex;
 align-items: baseline;
-
 }
 .footer-logo-text {
 margin-right: 120px;
+
 }
 
 .footer-txt {
